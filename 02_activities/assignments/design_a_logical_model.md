@@ -16,6 +16,7 @@ _Hint, search type 1 vs type 2 slowly changing dimensions._
 Bonus: Are there privacy implications to this, why or why not?
 ```
 Your answer...
+Type 1 SCD overwrites the data, and Type 2 SCD keeps historical records
 ```
 
 ## Question 4
@@ -24,6 +25,10 @@ Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
 Highlight at least two differences between it and your ERD. Would you change anything in yours?
 ```
 Your answer...
+In AdventureWorks, the SalesOrder table is comprehensive. It includes columns like DueDate, ShipDate, BillToAddressID, and ShipToAddressID, which are essential for tracking the sales process. For taxation and pricing details, it also has fields such as TaxAmount, Freight, and SubTotal.
+A robust Customer table should have contact information fields like EmailAddress and PhoneNumber, as these are crucial for customer communication and support.
+In AdventureWorks, the Employee table has extensive data beyond the basic employee info. This includes fields for position details, management hierarchy, and employment status.
+
 ```
 
 # Criteria

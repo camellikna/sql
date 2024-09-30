@@ -16,7 +16,6 @@ _Hint, search type 1 vs type 2 slowly changing dimensions._
 Bonus: Are there privacy implications to this, why or why not?
 ```
 Your answer...
-Your answer...
 Type 1 SCD overwrites the data, and Type 2 SCD keeps historical records
 
 Type 1 may have fewer privacy concerns since it doesn't retain historical data and overwrites previous addresses.
